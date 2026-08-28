@@ -1,0 +1,92 @@
+{
+	"$schema": "../../.schemas/content-entry.schema.json",
+	"id": "posts:notes-on-simplicity",
+	"slug": "notes-on-simplicity",
+	"status": "published",
+	"data": {
+		"title": "Notes on Simplicity",
+		"featured_image": {
+			"provider": "local",
+			"id": "01M14YKJP52B3NXET0MEXDKNE8",
+			"alt": "Geometric pattern carved into white paper",
+			"width": 1200,
+			"height": 800,
+			"mimeType": "image/jpeg",
+			"filename": "notes-on-simplicity.jpg",
+			"meta": {
+				"storageKey": "01M14YKJP52B3NXET0MEXDKNE8.jpg"
+			}
+		},
+		"content": [
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Every piece of software starts simple. A few files, a clear purpose, a small surface area. Then features get added, edge cases get handled, and before long you're looking at something that requires a diagram to understand. This isn't inevitable, but it takes discipline to prevent.",
+						"_key": "k1"
+					}
+				],
+				"_key": "k0"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "The hard part of simplicity isn't the initial design. It's the ongoing resistance to complication. Every feature request, every bug fix, every refactor is an opportunity to add complexity. Saying no is the most important design skill, and the least celebrated.",
+						"_key": "k3"
+					}
+				],
+				"_key": "k2"
+			},
+			{
+				"_type": "block",
+				"style": "h2",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Removing as a feature",
+						"_key": "k5"
+					}
+				],
+				"_key": "k4"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "The best version of a product often has fewer features than the previous one. Not because features were missing, but because someone had the courage to remove things that weren't earning their keep. Every feature has a cost - in maintenance, in cognitive load, in the weight of the interface.",
+						"_key": "k7"
+					}
+				],
+				"_key": "k6"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Simplicity is a practice, not a destination. You never arrive at simple. You just keep asking: is this necessary? Could this be clearer? Is there a way to solve this problem by removing something instead of adding something? The answer is yes more often than you'd expect.",
+						"_key": "k9"
+					}
+				],
+				"_key": "k8"
+			}
+		],
+		"excerpt": "Simplicity isn't the absence of complexity. It's the result of understanding a problem well enough to solve it cleanly."
+	},
+	"taxonomies": {
+		"category": [
+			"notes"
+		],
+		"tag": [
+			"opinion"
+		]
+	}
+}

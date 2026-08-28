@@ -1,0 +1,23 @@
+{
+	"$schema": "../.schemas/menu.schema.json",
+	"id": "menu:primary",
+	"name": "primary",
+	"label": "Primary Navigation",
+	"items": [
+		{
+			"type": "custom",
+			"label": "Home",
+			"url": "/"
+		},
+		{
+			"type": "custom",
+			"label": "About",
+			"url": "/pages/about"
+		},
+		{
+			"type": "custom",
+			"label": "Posts",
+			"url": "/posts"
+		}
+	]
+}

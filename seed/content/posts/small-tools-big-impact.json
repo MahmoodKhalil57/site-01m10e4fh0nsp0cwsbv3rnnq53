@@ -1,0 +1,92 @@
+{
+	"$schema": "../../.schemas/content-entry.schema.json",
+	"id": "posts:small-tools-big-impact",
+	"slug": "small-tools-big-impact",
+	"status": "published",
+	"data": {
+		"title": "Small Tools, Big Impact",
+		"featured_image": {
+			"provider": "local",
+			"id": "01M14YK0WBQ7CWZMB5KVSKJ650",
+			"alt": "Wrenches and hand tools hanging on a workshop wall",
+			"width": 1200,
+			"height": 800,
+			"mimeType": "image/jpeg",
+			"filename": "small-tools.jpg",
+			"meta": {
+				"storageKey": "01M14YK0WBQ7CWZMB5KVSKJ650.jpg"
+			}
+		},
+		"content": [
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "There's a class of software that doesn't get enough appreciation. Not the frameworks or the platforms or the IDEs, but the small, sharp tools that solve one problem so well you stop thinking about them. They become invisible, which is the highest compliment you can pay a tool.",
+						"_key": "k1"
+					}
+				],
+				"_key": "k0"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "I'm talking about things like ripgrep, which searches code so fast it changed how I think about searching. Or jq, which makes JSON feel like a first-class data format in the terminal. Or curl, which has been quietly powering the internet's plumbing for decades.",
+						"_key": "k3"
+					}
+				],
+				"_key": "k2"
+			},
+			{
+				"_type": "block",
+				"style": "h2",
+				"children": [
+					{
+						"_type": "span",
+						"text": "The Unix philosophy, revisited",
+						"_key": "k5"
+					}
+				],
+				"_key": "k4"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Do one thing well. The advice is old enough to be a cliche, but the best modern tools still follow it. They don't try to be platforms. They don't have plugin ecosystems or configuration languages or startup wizards. They do their job and they compose with other tools that do theirs.",
+						"_key": "k7"
+					}
+				],
+				"_key": "k6"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "The temptation is always to add more. One more feature, one more option, one more integration. But every addition is a decision someone has to make, a path through the code that has to be maintained, a thing that can break. The best tools resist this. They stay small, and in staying small, they stay reliable.",
+						"_key": "k9"
+					}
+				],
+				"_key": "k8"
+			}
+		],
+		"excerpt": "The best developer tools do one thing well and get out of your way. A love letter to focused software."
+	},
+	"taxonomies": {
+		"category": [
+			"development"
+		],
+		"tag": [
+			"tools"
+		]
+	}
+}

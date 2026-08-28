@@ -1,0 +1,33 @@
+{
+	"$schema": "../.schemas/widget-area.schema.json",
+	"name": "sidebar",
+	"label": "Sidebar",
+	"description": "Widget area displayed on single post pages",
+	"widgets": [
+		{
+			"type": "component",
+			"title": "Search",
+			"componentId": "core:search"
+		},
+		{
+			"type": "component",
+			"title": "Categories",
+			"componentId": "core:categories"
+		},
+		{
+			"type": "component",
+			"title": "Tags",
+			"componentId": "core:tags"
+		},
+		{
+			"type": "component",
+			"title": "Recent Posts",
+			"componentId": "core:recent-posts"
+		},
+		{
+			"type": "component",
+			"title": "Archives",
+			"componentId": "core:archives"
+		}
+	]
+}

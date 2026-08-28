@@ -1,0 +1,92 @@
+{
+	"$schema": "../../.schemas/content-entry.schema.json",
+	"id": "posts:designing-with-constraints",
+	"slug": "designing-with-constraints",
+	"status": "published",
+	"data": {
+		"title": "Designing with Constraints",
+		"featured_image": {
+			"provider": "local",
+			"id": "01M14YK6VVQ3Q7WZRYE094H5XN",
+			"alt": "Pencils and design tools on a desk",
+			"width": 1200,
+			"height": 800,
+			"mimeType": "image/jpeg",
+			"filename": "designing-with-constraints.jpg",
+			"meta": {
+				"storageKey": "01M14YK6VVQ3Q7WZRYE094H5XN.jpg"
+			}
+		},
+		"content": [
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Give a designer a blank canvas and unlimited time, and they'll often produce something mediocre. Give them a tight brief, a small screen, and a deadline, and they'll surprise you. This isn't a paradox - it's how creativity actually works.",
+						"_key": "k1"
+					}
+				],
+				"_key": "k0"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Constraints force decisions. When you can't use more than two typefaces, you have to choose carefully. When the page has to load in under a second, every element earns its place. When the interface has to work on a 320px screen, you discover what's truly essential.",
+						"_key": "k3"
+					}
+				],
+				"_key": "k2"
+			},
+			{
+				"_type": "block",
+				"style": "h2",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Embracing the box",
+						"_key": "k5"
+					}
+				],
+				"_key": "k4"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "The web itself is a constraint. HTML flows in one direction. CSS has a box model. Browsers have viewport sizes and font rendering quirks. You can fight these constraints or you can work with them, and the results are dramatically different.",
+						"_key": "k7"
+					}
+				],
+				"_key": "k6"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "The designs I admire most don't look like they were forced through a framework. They look like they grew naturally from the medium, respecting its grain rather than working against it. That only happens when you treat constraints as creative partners rather than enemies.",
+						"_key": "k9"
+					}
+				],
+				"_key": "k8"
+			}
+		],
+		"excerpt": "Limitations aren't obstacles to creativity. They're the structure that makes creativity possible."
+	},
+	"taxonomies": {
+		"category": [
+			"design"
+		],
+		"tag": [
+			"creativity"
+		]
+	}
+}

@@ -1,0 +1,98 @@
+{
+	"$schema": "../../.schemas/content-entry.schema.json",
+	"id": "posts:the-case-for-static",
+	"slug": "the-case-for-static",
+	"status": "published",
+	"data": {
+		"title": "The Case for Static",
+		"featured_image": {
+			"provider": "local",
+			"id": "01M14YJJYBYEQCC5PNGSM3VFMJ",
+			"alt": "Laptop and coffee on a wooden table",
+			"width": 1200,
+			"height": 800,
+			"mimeType": "image/jpeg",
+			"filename": "case-for-static.jpg",
+			"meta": {
+				"storageKey": "01M14YJJYBYEQCC5PNGSM3VFMJ.jpg"
+			}
+		},
+		"content": [
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "There's a certain irony in the fact that the web started static, went dynamic, and is now swinging back toward static again. But the static sites of today aren't the hand-coded HTML pages of 1998. They're generated, optimized, and deployed to edge networks that serve them in milliseconds.",
+						"_key": "k1"
+					}
+				],
+				"_key": "k0"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "The pitch for server-rendered everything was compelling: dynamic content, personalization, real-time data. But most sites don't need most of that most of the time. A blog post doesn't need to be rendered on every request. A product page doesn't change every second.",
+						"_key": "k3"
+					}
+				],
+				"_key": "k2"
+			},
+			{
+				"_type": "block",
+				"style": "h2",
+				"children": [
+					{
+						"_type": "span",
+						"text": "The performance argument",
+						"_key": "k5"
+					}
+				],
+				"_key": "k4"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "A static file served from a CDN is as fast as the web gets. No cold starts, no database queries, no server-side rendering overhead. The Time to First Byte is essentially the network latency to your nearest edge node. You can't beat physics.",
+						"_key": "k7"
+					}
+				],
+				"_key": "k6"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "And when you do need dynamic behavior, you can add it surgically. An island of interactivity in a sea of static HTML. The best of both worlds, without paying the cost of either at all times.",
+						"_key": "k9"
+					}
+				],
+				"_key": "k8"
+			}
+		],
+		"excerpt": "Static sites aren't a step backwards. They're what you get when you take performance and simplicity seriously."
+	},
+	"taxonomies": {
+		"category": [
+			"development"
+		],
+		"tag": [
+			"webdev",
+			"opinion"
+		]
+	},
+	"bylines": [
+		{
+			"byline": "byline:emdash-editorial"
+		}
+	]
+}

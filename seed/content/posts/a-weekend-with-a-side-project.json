@@ -1,0 +1,92 @@
+{
+	"$schema": "../../.schemas/content-entry.schema.json",
+	"id": "posts:a-weekend-with-a-side-project",
+	"slug": "a-weekend-with-a-side-project",
+	"status": "published",
+	"data": {
+		"title": "A Weekend with a Side Project",
+		"featured_image": {
+			"provider": "local",
+			"id": "01M14YKCMR5AHVREEV1DGS2T9T",
+			"alt": "Code on a screen with a dark theme",
+			"width": 1200,
+			"height": 800,
+			"mimeType": "image/jpeg",
+			"filename": "weekend-side-project.jpg",
+			"meta": {
+				"storageKey": "01M14YKCMR5AHVREEV1DGS2T9T.jpg"
+			}
+		},
+		"content": [
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Saturday morning. Coffee's made, the house is quiet, and I've got an idea that's been nagging at me all week. Not a good idea, necessarily - just a persistent one. A small tool that does a thing I keep doing manually. How hard could it be?",
+						"_key": "k1"
+					}
+				],
+				"_key": "k0"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "This is the best kind of programming. No requirements document, no sprint planning, no pull request reviews. Just a text editor and a problem. The freedom to make terrible architectural decisions, rewrite everything twice, and follow tangents that turn out to be dead ends.",
+						"_key": "k3"
+					}
+				],
+				"_key": "k2"
+			},
+			{
+				"_type": "block",
+				"style": "h2",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Why side projects matter",
+						"_key": "k5"
+					}
+				],
+				"_key": "k4"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Side projects are where you learn things your day job would never teach you. Not because the problems are harder, but because you're free to take risks. Try a language you've never used. Build something without a framework. Deploy to a platform you've only read about. The stakes are zero, which makes the learning maximum.",
+						"_key": "k7"
+					}
+				],
+				"_key": "k6"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "By Sunday evening, the thing sort of works. It's rough, the error handling is nonexistent, and the README is a single sentence. But it solves the problem I set out to solve, and I learned three things I didn't know on Friday. Not a bad weekend.",
+						"_key": "k9"
+					}
+				],
+				"_key": "k8"
+			}
+		],
+		"excerpt": "No stakeholders, no deadlines, no Jira tickets. Just you and a dumb idea that might turn into something."
+	},
+	"taxonomies": {
+		"category": [
+			"development"
+		],
+		"tag": [
+			"creativity"
+		]
+	}
+}

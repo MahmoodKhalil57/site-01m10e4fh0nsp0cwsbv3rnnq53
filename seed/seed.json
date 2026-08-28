@@ -1,0 +1,51 @@
+{
+	"$schema": "./.schemas/seed.schema.json",
+	"version": "1",
+	"defaultLocale": "en",
+	"meta": {
+		"name": "Exported Seed",
+		"description": "Exported from existing EmDash database"
+	},
+	"settings": {},
+	"order": {
+		"collections": [
+			"pages",
+			"posts",
+			"projects"
+		],
+		"taxonomies": [
+			"category",
+			"tag"
+		],
+		"menus": [
+			"primary"
+		],
+		"widgetAreas": [
+			"sidebar",
+			"footer"
+		],
+		"bylines": [
+			"guest-contributor",
+			"emdash-editorial"
+		],
+		"content": {
+			"pages": [
+				"about"
+			],
+			"posts": [
+				"work-in-progress",
+				"notes-on-simplicity",
+				"a-weekend-with-a-side-project",
+				"designing-with-constraints",
+				"small-tools-big-impact",
+				"learning-in-public",
+				"the-case-for-static",
+				"building-for-the-long-term"
+			],
+			"projects": [
+				"saastemly",
+				"marketing"
+			]
+		}
+	}
+}

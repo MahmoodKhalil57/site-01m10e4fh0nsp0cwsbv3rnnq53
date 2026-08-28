@@ -1,0 +1,26 @@
+{
+	"$schema": "../.schemas/widget-area.schema.json",
+	"name": "footer",
+	"label": "Footer",
+	"description": "Widget area displayed in the site footer",
+	"widgets": [
+		{
+			"type": "content",
+			"title": "About",
+			"content": [
+				{
+					"_type": "block",
+					"style": "normal",
+					"children": [
+						{
+							"_type": "span",
+							"text": "A blog about software, design, and the occasional stray thought.",
+							"_key": "k1"
+						}
+					],
+					"_key": "k0"
+				}
+			]
+		}
+	]
+}

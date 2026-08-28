@@ -1,0 +1,28 @@
+{
+	"$schema": "../.schemas/taxonomy.schema.json",
+	"id": "tax:category",
+	"name": "category",
+	"label": "Categories",
+	"labelSingular": "Category",
+	"hierarchical": true,
+	"collections": [
+		"posts"
+	],
+	"terms": [
+		{
+			"id": "term:category:development",
+			"slug": "development",
+			"label": "Development"
+		},
+		{
+			"id": "term:category:design",
+			"slug": "design",
+			"label": "Design"
+		},
+		{
+			"id": "term:category:notes",
+			"slug": "notes",
+			"label": "Notes"
+		}
+	]
+}

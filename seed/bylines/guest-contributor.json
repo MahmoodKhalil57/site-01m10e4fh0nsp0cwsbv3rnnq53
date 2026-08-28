@@ -1,0 +1,7 @@
+{
+	"$schema": "../.schemas/byline.schema.json",
+	"id": "byline:guest-contributor",
+	"slug": "guest-contributor",
+	"displayName": "Guest Contributor",
+	"isGuest": true
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "../../.schemas/content-entry.schema.json",
+	"id": "projects:saastemly",
+	"slug": "saastemly",
+	"status": "published",
+	"data": {
+		"label": "Saastemly",
+		"theme": "marketing",
+		"is_theme": 0,
+		"starting_credits": 25,
+		"url": "https://p01tm7kp3dy8x4pktjcawmpqtet.premium-cms.com"
+	}
+}

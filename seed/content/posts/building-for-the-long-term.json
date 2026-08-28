@@ -1,0 +1,113 @@
+{
+	"$schema": "../../.schemas/content-entry.schema.json",
+	"id": "posts:building-for-the-long-term",
+	"slug": "building-for-the-long-term",
+	"status": "published",
+	"data": {
+		"title": "Building for the Long Term",
+		"featured_image": {
+			"provider": "local",
+			"id": "01M14YJARMBJT5MQDPEB26TR1F",
+			"alt": "Code on a monitor in a dark room",
+			"width": 1200,
+			"height": 800,
+			"mimeType": "image/jpeg",
+			"filename": "building-long-term.jpg",
+			"meta": {
+				"storageKey": "01M14YJARMBJT5MQDPEB26TR1F.jpg"
+			}
+		},
+		"content": [
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Every few years the industry collectively decides that everything we've been doing is wrong and there's a better way. New frameworks, new paradigms, new build tools. The churn is relentless, and if you're not careful, you spend more time migrating than building.",
+						"_key": "k1"
+					}
+				],
+				"_key": "k0"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "I've been writing software long enough to have seen several of these cycles. jQuery to Backbone to Angular to React to whatever comes next. Each transition felt urgent at the time. Looking back, the things that actually mattered were rarely about the framework.",
+						"_key": "k3"
+					}
+				],
+				"_key": "k2"
+			},
+			{
+				"_type": "block",
+				"style": "h2",
+				"children": [
+					{
+						"_type": "span",
+						"text": "What survives",
+						"_key": "k5"
+					}
+				],
+				"_key": "k4"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "Clean data models survive. Clear boundaries between systems survive. Good naming survives. The decision to keep things simple when you could have made them clever - that definitely survives.",
+						"_key": "k7"
+					}
+				],
+				"_key": "k6"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "What doesn't survive is code that was written to impress, abstractions built for problems that never materialized, and architectures designed around a framework's opinions rather than the domain's reality.",
+						"_key": "k9"
+					}
+				],
+				"_key": "k8"
+			},
+			{
+				"_type": "block",
+				"style": "normal",
+				"children": [
+					{
+						"_type": "span",
+						"text": "The best code I've written is boring. It reads like prose, does one thing well, and doesn't require a PhD in category theory to understand. The worst code I've written was technically impressive at the time.",
+						"_key": "k11"
+					}
+				],
+				"_key": "k10"
+			}
+		],
+		"excerpt": "The frameworks will change. The databases will change. What survives is the clarity of your thinking."
+	},
+	"taxonomies": {
+		"category": [
+			"development"
+		],
+		"tag": [
+			"opinion"
+		]
+	},
+	"bylines": [
+		{
+			"byline": "byline:emdash-editorial"
+		},
+		{
+			"byline": "byline:guest-contributor",
+			"roleLabel": "Guest essay"
+		}
+	]
+}

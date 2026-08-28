@@ -1,0 +1,37 @@
+{
+	"$schema": "../.schemas/collection.schema.json",
+	"slug": "posts",
+	"label": "Posts",
+	"labelSingular": "Post",
+	"supports": [
+		"drafts",
+		"revisions",
+		"search",
+		"seo"
+	],
+	"fields": [
+		{
+			"slug": "title",
+			"label": "Title",
+			"type": "string",
+			"required": true,
+			"searchable": true
+		},
+		{
+			"slug": "featured_image",
+			"label": "Featured Image",
+			"type": "image"
+		},
+		{
+			"slug": "content",
+			"label": "Content",
+			"type": "portableText",
+			"searchable": true
+		},
+		{
+			"slug": "excerpt",
+			"label": "Excerpt",
+			"type": "text"
+		}
+	]
+}

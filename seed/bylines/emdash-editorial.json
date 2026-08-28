@@ -1,0 +1,6 @@
+{
+	"$schema": "../.schemas/byline.schema.json",
+	"id": "byline:emdash-editorial",
+	"slug": "emdash-editorial",
+	"displayName": "EmDash Editorial"
+}

@@ -1,0 +1,69 @@
+{
+	"$schema": "../.schemas/collection.schema.json",
+	"slug": "projects",
+	"label": "Projects",
+	"labelSingular": "Project",
+	"description": "Instances provisioned by this control plane. Pick a theme/demo to copy, set a starting balance, and it provisions automatically. Mark 'Is theme/demo' to make this instance itself copyable.",
+	"icon": "browsers",
+	"admin": {
+		"listColumns": []
+	},
+	"fields": [
+		{
+			"slug": "label",
+			"label": "Label",
+			"type": "string",
+			"required": true,
+			"searchable": true
+		},
+		{
+			"slug": "theme",
+			"label": "Copy from theme/demo",
+			"type": "string",
+			"required": true,
+			"options": {
+				"visibility": "create",
+				"optionsUrl": "/_emdash/api/plugins/premiumcms-projects/themeOptions"
+			}
+		},
+		{
+			"slug": "is_theme",
+			"label": "Is theme / demo",
+			"type": "boolean",
+			"options": {}
+		},
+		{
+			"slug": "starting_credits",
+			"label": "Starting credit balance ($)",
+			"type": "number",
+			"options": {
+				"visibility": "create"
+			}
+		},
+		{
+			"slug": "url",
+			"label": "URL",
+			"type": "url",
+			"options": {
+				"readOnly": true,
+				"visibility": "edit"
+			}
+		},
+		{
+			"slug": "add_credits",
+			"label": "Add credits ($)",
+			"type": "number",
+			"options": {
+				"visibility": "edit"
+			}
+		},
+		{
+			"slug": "domain",
+			"label": "Platform domain",
+			"type": "string",
+			"options": {
+				"visibility": "edit"
+			}
+		}
+	]
+}

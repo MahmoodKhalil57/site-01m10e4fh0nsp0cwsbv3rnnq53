@@ -1,0 +1,14 @@
+{
+	"$schema": "../../.schemas/content-entry.schema.json",
+	"id": "projects:marketing",
+	"slug": "marketing",
+	"status": "published",
+	"data": {
+		"label": "Marketing",
+		"theme": "marketing",
+		"is_theme": 1,
+		"starting_credits": 25,
+		"url": "https://marketing.premium-cms.com",
+		"domain": "marketing.premium-cms.com"
+	}
+}

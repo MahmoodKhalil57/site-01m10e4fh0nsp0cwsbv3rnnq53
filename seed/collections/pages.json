@@ -1,0 +1,26 @@
+{
+	"$schema": "../.schemas/collection.schema.json",
+	"slug": "pages",
+	"label": "Pages",
+	"labelSingular": "Page",
+	"supports": [
+		"drafts",
+		"revisions",
+		"search"
+	],
+	"fields": [
+		{
+			"slug": "title",
+			"label": "Title",
+			"type": "string",
+			"required": true,
+			"searchable": true
+		},
+		{
+			"slug": "content",
+			"label": "Content",
+			"type": "portableText",
+			"searchable": true
+		}
+	]
+}
