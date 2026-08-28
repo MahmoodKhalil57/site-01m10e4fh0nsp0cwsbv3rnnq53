@@ -6,21 +6,19 @@
 	"supports": [
 		"drafts",
 		"revisions",
-		"search"
+		"seo"
 	],
 	"fields": [
 		{
 			"slug": "title",
 			"label": "Title",
 			"type": "string",
-			"required": true,
-			"searchable": true
+			"required": true
 		},
 		{
 			"slug": "content",
 			"label": "Content",
-			"type": "portableText",
-			"searchable": true
+			"type": "portableText"
 		}
 	]
 }

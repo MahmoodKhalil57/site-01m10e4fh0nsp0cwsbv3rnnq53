@@ -1,8 +1,8 @@
 {
 	"$schema": "../.schemas/menu.schema.json",
-	"id": "menu:primary",
-	"name": "primary",
-	"label": "Primary Navigation",
+	"id": "menu:footer_product",
+	"name": "footer_product",
+	"label": "Footer: Product",
 	"items": [
 		{
 			"type": "custom",
@@ -16,8 +16,8 @@
 		},
 		{
 			"type": "custom",
-			"label": "Contact",
-			"url": "/contact"
+			"label": "Changelog",
+			"url": "/changelog"
 		}
 	]
 }
