@@ -82,7 +82,7 @@ const isLoggedIn = !!Astro.locals.user;
 // canonical origin so the frontend is only ever served through our custom link.
 const canonicalOrigin = Astro.site ? Astro.site.origin : "";
 const canonicalGuard = canonicalOrigin
-	? `(function(){try{var C=${JSON.stringify(canonicalOrigin)};if(location.origin!==C&&/\\.github\\.io$/i.test(location.hostname)){location.replace(C+location.pathname+location.search+location.hash);}}catch(e){}})();`
+	? `(function(){try{var C=${JSON.stringify(canonicalOrigin)};if(location.origin!==C&&/\.github\.io$/i.test(location.hostname)){location.replace(C+location.pathname+location.search+location.hash);}}catch(e){}})();`
 	: "";
 ---
 
@@ -209,7 +209,7 @@ const canonicalGuard = canonicalOrigin
 				</div>
 				<div class="footer-bottom">
 					<p class="footer-copyright">
-						Powered by <a href="https://emdashcms.com">EmDash</a>
+						Powered by <a href="https://premium-cms.com">PremiumCMS</a>
 					</p>
 					<div class="theme-switcher">
 						<button
