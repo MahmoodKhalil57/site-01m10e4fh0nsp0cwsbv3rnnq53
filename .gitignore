@@ -13,4 +13,3 @@ data.db
 .dev.vars.*
 
 # Local development
-snapshot.db
