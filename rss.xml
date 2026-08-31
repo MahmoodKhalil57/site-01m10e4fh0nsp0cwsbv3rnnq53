@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Blog</title>
+    <description>Thoughts on building for the web</description>
+    <link>https://premium-cms.com/</link>
+    <atom:link href="https://premium-cms.com//rss.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Aug 2026 02:11:46 GMT</lastBuildDate>
+    <item>
+      <title>Notes on Simplicity</title>
+      <link>https://premium-cms.com//posts/notes-on-simplicity</link>
+      <guid isPermaLink="true">https://premium-cms.com//posts/notes-on-simplicity</guid>
+      <pubDate>Fri, 28 Aug 2026 16:29:17 GMT</pubDate>
+      <description>Simplicity isn&apos;t the absence of complexity. It&apos;s the result of understanding a problem well enough to solve it cleanly.</description>
+    </item>
+    <item>
+      <title>A Weekend with a Side Project</title>
+      <link>https://premium-cms.com//posts/a-weekend-with-a-side-project</link>
+      <guid isPermaLink="true">https://premium-cms.com//posts/a-weekend-with-a-side-project</guid>
+      <pubDate>Fri, 28 Aug 2026 16:29:11 GMT</pubDate>
+      <description>No stakeholders, no deadlines, no Jira tickets. Just you and a dumb idea that might turn into something.</description>
+    </item>
+    <item>
+      <title>Designing with Constraints</title>
+      <link>https://premium-cms.com//posts/designing-with-constraints</link>
+      <guid isPermaLink="true">https://premium-cms.com//posts/designing-with-constraints</guid>
+      <pubDate>Fri, 28 Aug 2026 16:29:04 GMT</pubDate>
+      <description>Limitations aren&apos;t obstacles to creativity. They&apos;re the structure that makes creativity possible.</description>
+    </item>
+    <item>
+      <title>Small Tools, Big Impact</title>
+      <link>https://premium-cms.com//posts/small-tools-big-impact</link>
+      <guid isPermaLink="true">https://premium-cms.com//posts/small-tools-big-impact</guid>
+      <pubDate>Fri, 28 Aug 2026 16:28:58 GMT</pubDate>
+      <description>The best developer tools do one thing well and get out of your way. A love letter to focused software.</description>
+    </item>
+    <item>
+      <title>Learning in Public</title>
+      <link>https://premium-cms.com//posts/learning-in-public</link>
+      <guid isPermaLink="true">https://premium-cms.com//posts/learning-in-public</guid>
+      <pubDate>Fri, 28 Aug 2026 16:28:50 GMT</pubDate>
+      <description>Writing about what you&apos;re learning is the fastest way to find out what you don&apos;t actually understand.</description>
+    </item>
+    <item>
+      <title>The Case for Static</title>
+      <link>https://premium-cms.com//posts/the-case-for-static</link>
+      <guid isPermaLink="true">https://premium-cms.com//posts/the-case-for-static</guid>
+      <pubDate>Fri, 28 Aug 2026 16:28:39 GMT</pubDate>
+      <description>Static sites aren&apos;t a step backwards. They&apos;re what you get when you take performance and simplicity seriously.</description>
+    </item>
+    <item>
+      <title>Building for the Long Term</title>
+      <link>https://premium-cms.com//posts/building-for-the-long-term</link>
+      <guid isPermaLink="true">https://premium-cms.com//posts/building-for-the-long-term</guid>
+      <pubDate>Fri, 28 Aug 2026 16:28:29 GMT</pubDate>
+      <description>The frameworks will change. The databases will change. What survives is the clarity of your thinking.</description>
+    </item>
+  </channel>
+</rss>
